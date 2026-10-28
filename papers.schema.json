@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/conference-papers.schema.json",
+  "title": "会议论文统一数据格式",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "collections"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "collections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "conference",
+          "year",
+          "name",
+          "scope",
+          "source_url",
+          "papers"
+        ],
+        "properties": {
+          "conference": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]*$"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2100
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": ".*\\S.*"
+          },
+          "scope": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "pattern": "^https?://[^\\s]+$"
+          },
+          "papers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "title",
+                "title_zh",
+                "authors",
+                "abstract",
+                "abstract_zh",
+                "topics",
+                "kind",
+                "track",
+                "links",
+                "abstract_source",
+                "search_extra"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": ".*\\S.*"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "title_zh": {
+                  "type": "string"
+                },
+                "authors": {
+                  "type": "string"
+                },
+                "abstract": {
+                  "type": "string"
+                },
+                "abstract_zh": {
+                  "type": "string"
+                },
+                "topics": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": ".*\\S.*"
+                  },
+                  "uniqueItems": true
+                },
+                "kind": {
+                  "type": "string"
+                },
+                "track": {
+                  "type": "string"
+                },
+                "links": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "url"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": ".*\\S.*"
+                      },
+                      "url": {
+                        "type": "string",
+                        "pattern": "^https?://[^\\s]+$"
+                      }
+                    }
+                  }
+                },
+                "abstract_source": {
+                  "type": "string"
+                },
+                "search_extra": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

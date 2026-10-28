@@ -1,0 +1,8 @@
+# Local credentials and environment files
+github_token.json
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]

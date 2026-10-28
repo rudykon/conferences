@@ -11,10 +11,13 @@
 | WWW | 2026 | 950 | 研究、产业、短论文及社会公益论文 |
 | ICDE | 2026 | 261 | 官方录用的研究论文 |
 | CVPR | 2026 | 4,042 | CVF 官方主会论文 |
+| ACL | 2026 | 4,812 | 主会长短论文、产业、系统演示、学生研究、教程和 Findings |
 
 中文标题和摘要包含机器翻译或整理内容，仅供辅助阅读。部分论文缺少摘要或原文链接；WWW 2026 当前数据未收录英文摘要。论文内容和发表信息请以原文及出版方页面为准。
 
-主要来源：[WWW 2026 录用论文](https://www2026.thewebconf.org/accepted/research-tracks.html)、[ICDE 2026 录用论文](https://icde2026.github.io/accepted-papers.html)、[CVPR 2026 论文目录](https://openaccess.thecvf.com/CVPR2026?day=all)。
+主要来源：[WWW 2026 录用论文](https://www2026.thewebconf.org/accepted/research-tracks.html)、[ICDE 2026 录用论文](https://icde2026.github.io/accepted-papers.html)、[CVPR 2026 论文目录](https://openaccess.thecvf.com/CVPR2026?day=all)、[ACL 2026 论文目录](https://aclanthology.org/events/acl-2026/)。
+
+ACL 2026 论文元数据和英文摘要来自 ACL Anthology，原始内容版权归 ACL 及相应权利人所有，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授权使用。中文标题为机器翻译；部分中文内容采用 [ICLR2026-Guide-CN](https://github.com/shengshimeiyan/ICLR2026-Guide-CN) 的 AI 生成导读，并非摘要逐句翻译。主题基于标题和摘要自动分类，并非官方分类；翻译、导读及分类均可能有误。每篇记录保留作者、原文和许可链接。第三方来源与许可见 [许可说明](docs/third-party-notices.md)。
 
 ## 使用
 

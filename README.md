@@ -17,7 +17,7 @@
 
 主要来源：[WWW 2026 录用论文](https://www2026.thewebconf.org/accepted/research-tracks.html)、[ICDE 2026 录用论文](https://icde2026.github.io/accepted-papers.html)、[CVPR 2026 论文目录](https://openaccess.thecvf.com/CVPR2026?day=all)、[ACL 2026 论文目录](https://aclanthology.org/events/acl-2026/)。
 
-ACL 2026 论文元数据和英文摘要来自 ACL Anthology，原始内容版权归 ACL 及相应权利人所有，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授权使用。中文标题为机器翻译；部分中文内容采用 [ICLR2026-Guide-CN](https://github.com/shengshimeiyan/ICLR2026-Guide-CN) 的 AI 生成导读，并非摘要逐句翻译。主题基于标题和摘要自动分类，并非官方分类；翻译、导读及分类均可能有误。每篇记录保留作者、原文和许可链接。第三方来源与许可见 [许可说明](docs/third-party-notices.md)。
+ACL 2026 论文元数据和英文摘要来自 ACL Anthology，原始内容版权归 ACL 及相应权利人所有，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授权使用。中文标题和完整中文摘要使用 HY-MT1.5 机器翻译，部分术语经校正。主题基于标题和摘要自动分类，并非官方分类；翻译、导读及分类均可能有误。每篇记录保留作者、原文和许可链接。第三方来源与许可见 [许可说明](docs/third-party-notices.md)，尚需复核的译文检查项见 [ACL 2026 翻译核查清单](docs/acl-2026-translation-review.md)。
 
 ## 使用
 
